@@ -1,0 +1,47 @@
+﻿<!--
+  제작 : 공민철, 박경민
+  제작일 : 2018.06.07
+  주제 : 마이크의 베개를 찾아서
+  설명 : 주인공 마이크가 누군가가 훔쳐간 베개를 찾으러가는 횡스크롤 2D 어드밴쳐 게임
+  총 4개의 스테이지
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <canvas id="mikeCanvas" width="1250" height="720" style="border:1px solid black;"></canvas>
+
+  <!-- 순서 바꾸지 마세요. -->
+<script>var intervalId;</script>
+  <script type="text/javascript" src="js/draw.js" ></script>
+  <script type="text/javascript" src="js/collision.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/button.js"></script>
+  <script type="text/javascript" src="js/player.js"></script>
+  <script type="text/javascript" src="js/mainscreen.js"></script>
+  <script type="text/javascript" src="js/missile.js"></script>
+  <script type="text/javascript" src="js/knife.js"></script>
+  <script type="text/javascript" src="js/map.js" ></script>
+  <script type="text/javascript" src="js/cannon.js"></script>
+  <script type="text/javascript" src="js/goal.js"></script>
+  <script type="text/javascript" src="js/camera_move.js"></script>
+  <script type="text/javascript" src="js/sound.js"></script>
+</head>
+<body onload="startMainScreen();">
+  <input type="image" id="btn" src="image/findpillow.png" onclick="init(); gameStart(); invisible();"
+  style="position:absolute; left:1250/2;"/>
+  <span style="position:absolute; right:30px; top:150px; border:1px solid black; width:240px;">
+    <h2>
+    조작키<br />
+    좌우이동 : 방향키<br />
+    아이템 대포 사용 : z<br/>
+    수리검 사용 : wasd <br />
+  </h2>
+  </span>
+
+
+  <div id="test">
+  </div>
+</body>
+
+</html>
