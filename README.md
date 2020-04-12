@@ -29,7 +29,7 @@
 
 
 # 수리검아이템
-<img src="https://user-images.githubusercontent.com/37204852/79064181-b5ee4a80-7ce1-11ea-83c0-70d50eb8b543.png">
+<img src="https://user-images.githubusercontent.com/37204852/79064193-cacade00-7ce1-11ea-86d4-c18b0ef3a8b6.png">
 
 
 # 돼지모드 아이템
